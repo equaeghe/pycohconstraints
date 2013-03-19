@@ -43,10 +43,10 @@ References & citing
 This code has been used for my research.
 This research has been presented at a conference:
 
-    > Quaeghebeur, Erik. 2010.
-    > “Characterizing the set of coherent lower previsions with a finite number of constraints or vertices.”
-    > Ed. Peter Grünwald and Peter Spirtes.
-    > Proceedings of the Twenty-Sixth Conference on Uncertainty in Artificial Intelligence: 466–473.
-    > [hdl:1854/LU-984156](http://hdl.handle.net/1854/LU-984156).
+> Quaeghebeur, Erik. 2010.
+> “Characterizing the set of coherent lower previsions with a finite number of constraints or vertices.”
+> Ed. Peter Grünwald and Peter Spirtes.
+> Proceedings of the Twenty-Sixth Conference on Uncertainty in Artificial Intelligence: 466–473.
+> [hdl:1854/LU-984156](http://hdl.handle.net/1854/LU-984156).
 
 Please cite this paper if you use any material in this repository.
