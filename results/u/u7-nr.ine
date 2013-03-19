@@ -1,0 +1,50 @@
+
+*redund:lrslib v.4.2b, 2009.2.5(32bit,lrsgmp.h gmp v.4.2)
+*Copyright (C) 1995,2009, David Avis   avis@cs.mcgill.ca 
+*Input taken from file u7.ine
+*row 1 was redundant and removed
+*row 3 was redundant and removed
+*row 5 was redundant and removed
+*row 6 was redundant and removed
+*row 8 was redundant and removed
+*row 9 was redundant and removed
+*row 12 was redundant and removed
+*row 33 was redundant and removed
+*row 36 was redundant and removed
+H-representation
+begin
+28 15 rational
+ 0  0  0  0  0  0  0  0  1  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  1  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  1  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  1  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  1  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  1  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  1 
+ 1 -1  0  0  0  0  0  0  0  0  0 -1  0  0  0 
+ 1  0  0  0  0  0 -1  0 -1  0  0  0  0  0  0 
+ 1  0 -1  0  0  0  0  0  0  0  0  0  0  0 -1 
+ 1  0  0  0 -1  0  0  0  0 -1  0  0  0  0  0 
+ 1  0  0 -1  0  0  0  0  0  0  0  0  0 -1  0 
+ 1  0  0  0  0 -1  0  0  0  0 -1  0  0  0  0 
+ 1  0  0  0  0  0  0 -1  0  0  0  0 -1  0  0 
+ 0  0  1  0  0  0  0  0 -1 -1 -1 -1 -1 -1  0 
+ 0  0  0  1  0  0  0  0 -1 -1 -1 -1 -1  0 -1 
+ 0  0  0  0  0  0  0  1 -1 -1 -1 -1  0 -1 -1 
+ 0  1  0  0  0  0  0  0 -1 -1 -1  0 -1 -1 -1 
+ 0  0  0  0  0  1  0  0 -1 -1  0 -1 -1 -1 -1 
+ 0  0  0  0  1  0  0  0 -1  0 -1 -1 -1 -1 -1 
+ 0  0  0  0  0  0  1  0  0 -1 -1 -1 -1 -1 -1 
+ 5 -1 -1 -1 -1 -1  0 -1  1  0  0  0  0  0  0 
+ 5 -1 -1 -1  0 -1 -1 -1  0  1  0  0  0  0  0 
+ 5 -1 -1 -1 -1  0 -1 -1  0  0  1  0  0  0  0 
+ 5 -1 -1 -1 -1 -1 -1  0  0  0  0  0  1  0  0 
+ 5 -1 -1  0 -1 -1 -1 -1  0  0  0  0  0  1  0 
+ 5 -1  0 -1 -1 -1 -1 -1  0  0  0  0  0  0  1 
+ 5  0 -1 -1 -1 -1 -1 -1  0  0  0  1  0  0  0 
+end
+*Input had 37 rows and 15 columns: 9 row(s) redundant
+*redund:lrslib v.4.2b, 2009.2.5(32bit,lrsgmp.h)
+*0.012u 0.000s 0Kb 0 flts 0 swaps 0 blks-in 8 blks-out 
+
+

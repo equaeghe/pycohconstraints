@@ -1,0 +1,45 @@
+
+*redund:lrslib v.4.2b, 2009.2.5(32bit,lrsgmp.h gmp v.4.2)
+*Copyright (C) 1995,2009, David Avis   avis@cs.mcgill.ca 
+*Input taken from file 3on5.ine
+*row 1 was redundant and removed
+*row 2 was redundant and removed
+*row 13 was redundant and removed
+*row 14 was redundant and removed
+*row 15 was redundant and removed
+*row 20 was redundant and removed
+*row 21 was redundant and removed
+*row 25 was redundant and removed
+*row 27 was redundant and removed
+*row 28 was redundant and removed
+*row 7 was redundant and removed
+*row 31 was redundant and removed
+*row 32 was redundant and removed
+H-representation
+begin
+19 9 rational
+ 0  0  0  0  1  0  0  0  0 
+ 0  0  0  0  0  1  0  0  0 
+ 0  0  0  0  0  0  1  0  0 
+ 0  0  0  0  0  0  0  1  0 
+ 0  0  0  0  0  0  0  0  1 
+ 0  8  0  0 -2 -4 -1  0 -8 
+ 0  0  0  8 -1 -2  0 -8 -4 
+ 0  0  8  0  0 -1 -8 -4 -2 
+ 16 -8 -32  0 -14 -8  17  0  0 
+ 31 -56 -24  0 -17  0  0 -19  31 
+ 256 -384 -208 -152 -141  0  0  0  256 
+ 2 -8  24  0  0 -1 -25 -14  0 
+ 16 -8  192 -112  0 -8 -207  0  0 
+ 4 -32  0  56 -3 -2  0 -60  0 
+ 4 -8  0  0 -2  0 -3 -4  4 
+ 16 -24  0 -16 -8  0 -13  0  16 
+ 16  0 -16 -24 -13 -8  0  16  0 
+ 4  0  56 -32  0 -3 -60  0 -2 
+ 4  0  0 -8 -3 -2 -4  4  0 
+end
+*Input had 32 rows and 9 columns: 13 row(s) redundant
+*redund:lrslib v.4.2b, 2009.2.5(32bit,lrsgmp.h)
+*0.004u 0.000s 0Kb 0 flts 0 swaps 0 blks-in 8 blks-out 
+
+

@@ -1,0 +1,71 @@
+input file u4-nosing.ext is open
+redundant rows:
+
+* Computation started at Mon Dec 21 17:17:41 2009
+*             ended   at Mon Dec 21 17:17:41 2009
+* Total processor time = 0 seconds
+*                      = 0 h 0 m 0 s
+Implicit linearity (after removal of redundant rows):  0  
+
+Nonredundant representation (except possibly for the linearity part):
+V-representation
+begin
+ 15 5 rational
+ 1 0 1 1 0
+ 1 1 0 1 0
+ 1 0 0 1 0
+ 1 1 0 0 0
+ 1 0 0 0 0
+ 1 0 1 0 0
+ 1 1 1 0 0
+ 1 0 0 0 1
+ 1 1 0 0 1
+ 1 0 1 0 1
+ 1 0 0 1 1
+ 1 0 1 1 1
+ 1 1 0 1 1
+ 1 1 1 0 1
+ 1 1 1 1 0
+end
+
+The linearity rows are independent and thus minimal
+Nonredundant representation (= minimal representation):
+V-representation
+begin
+ 15 5 rational
+ 1 0 1 1 0
+ 1 1 0 1 0
+ 1 0 0 1 0
+ 1 1 0 0 0
+ 1 0 0 0 0
+ 1 0 1 0 0
+ 1 1 1 0 0
+ 1 0 0 0 1
+ 1 1 0 0 1
+ 1 0 1 0 1
+ 1 0 0 1 1
+ 1 0 1 1 1
+ 1 1 0 1 1
+ 1 1 1 0 1
+ 1 1 1 1 0
+end
+
+Adjacency of the minimal representation:
+begin
+  15    15
+ 1 4 : 3 6 12 15 
+ 2 4 : 3 4 13 15 
+ 3 4 : 1 2 5 11 
+ 4 4 : 2 5 7 9 
+ 5 4 : 3 4 6 8 
+ 6 4 : 1 5 7 10 
+ 7 4 : 4 6 14 15 
+ 8 4 : 5 9 10 11 
+ 9 4 : 4 8 13 14 
+ 10 4 : 6 8 12 14 
+ 11 4 : 3 8 12 13 
+ 12 6 : 1 10 11 13 14 15 
+ 13 6 : 2 9 11 12 14 15 
+ 14 6 : 7 9 10 12 13 15 
+ 15 6 : 1 2 7 12 13 14 
+end

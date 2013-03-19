@@ -1,0 +1,63 @@
+input file 3on3-nr.ine is open
+How many variables to elminate? (max 6): 
+Remove the variable 1.  The resulting redundant system.
+H-representation
+begin
+ 9 6 rational
+ 0 0 0 0 1 0
+ 0 0 0 0 0 1
+ 0 0 0 2 -1 -2
+ 2 -4 0 -2 3 0
+ 2 0 -2 -4 0 3
+ 0 1 0 0 -1 0
+ 0 0 2 0 0 -1
+ 1 2 -2 0 -3 0
+ 2 -2 -1 0 0 -3/2
+end
+
+Redundant rows: 9 
+
+Remove the variable 2.  The resulting redundant system.
+H-representation
+begin
+ 8 5 rational
+ 0 0 0 0 1
+ 2 -4 0 -2 3
+ 0 1 0 0 -1
+ 1 2 -2 0 -3
+ 0 0 0 2 -1
+ 0 0 1 0 0
+ 2 0 -2 -1 -3/2
+ 1 0 2 -2 0
+end
+
+Redundant rows: 7 
+
+Remove the variable 3.  The resulting redundant system.
+H-representation
+begin
+ 8 4 rational
+ 0 0 1 0
+ 1 0 2 -2
+ 0 1 0 0
+ 1 2 -2 0
+ 0 0 0 1
+ 2 -1 0 -2
+ 3/2 -1 -1 -1
+ 1 -2 0 2
+end
+
+Redundant rows: 6 
+
+Nonredundant representation:
+H-representation
+begin
+ 7 4 rational
+ 0 0 1 0
+ 1 0 2 -2
+ 0 1 0 0
+ 1 2 -2 0
+ 0 0 0 1
+ 3/2 -1 -1 -1
+ 1 -2 0 2
+end

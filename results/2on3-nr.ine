@@ -1,0 +1,28 @@
+
+*redund:lrslib v.4.2b, 2009.2.5(32bit,lrsgmp.h gmp v.4.2)
+*Copyright (C) 1995,2009, David Avis   avis@cs.mcgill.ca 
+*Input taken from file tweetje.ine
+*row 2 was redundant and removed
+*row 9 was redundant and removed
+*row 10 was redundant and removed
+*row 11 was redundant and removed
+*row 13 was redundant and removed
+*row 5 was redundant and removed
+*row 12 was redundant and removed
+*row 15 was redundant and removed
+H-representation
+begin
+7 6 rational
+ 0  1  0  0  0  0 
+ 0  0  0  1  0  0 
+ 0  0  0  0  1  0 
+ 0 -2  2 -1  0  0 
+ 0  0  0 -2 -1  2 
+ 1  1 -2  0 -1  0 
+ 2  0 -2  3  0 -4 
+end
+*Input had 15 rows and 6 columns: 8 row(s) redundant
+*redund:lrslib v.4.2b, 2009.2.5(32bit,lrsgmp.h)
+*0.004u 0.000s 0Kb 0 flts 0 swaps 0 blks-in 8 blks-out 
+
+

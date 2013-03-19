@@ -1,0 +1,27 @@
+* Cardinality: 4
+* The set of gambles, and their order:
+*     K = {(1, 0, 1/4, 1/2), (0, 1/4, 1/2, 1), (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 0, 1), (0, 0, 1, 0)}
+* A constraint is of the form
+*     sum_{g in K} lambda_g P(g) <= mu.
+* It is listed below as
+*     mu -lambda_f -lambda_g -lambda_h ...
+H-representation
+begin
+16 7 integer
+0 0 0 1 0 0 0 
+0 0 0 0 1 0 0 
+0 1 0 0 0 0 0 
+0 0 0 0 0 1 0 
+0 0 1 0 0 0 0 
+0 0 0 0 0 0 1 
+0 4 0 -4 0 -2 -1 
+0 0 4 0 -1 -4 -2 
+2 -4 0 2 -2 0 -1 
+2 0 -4 -2 -1 2 0 
+1 0 0 -1 -1 -1 -1 
+4 0 -4 -4 -3 0 -2 
+2 12 -8 -14 0 0 -1 
+8 -8 -12 0 -5 8 0 
+4 -4 0 0 -4 -2 -3 
+8 -8 -4 0 -7 0 -4 
+end

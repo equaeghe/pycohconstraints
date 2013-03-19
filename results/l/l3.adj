@@ -1,0 +1,38 @@
+input file l3.ext is open
+redundant rows:
+
+* Computation started at Mon Dec 21 17:04:31 2009
+*             ended   at Mon Dec 21 17:04:31 2009
+* Total processor time = 0 seconds
+*                      = 0 h 0 m 0 s
+Implicit linearity (after removal of redundant rows):  0  
+
+Nonredundant representation (except possibly for the linearity part):
+V-representation
+begin
+ 4 4 rational
+ 1 0 0 1
+ 1 0 1 0
+ 1 1 0 0
+ 1 0 0 0
+end
+
+The linearity rows are independent and thus minimal
+Nonredundant representation (= minimal representation):
+V-representation
+begin
+ 4 4 rational
+ 1 0 0 1
+ 1 0 1 0
+ 1 1 0 0
+ 1 0 0 0
+end
+
+Adjacency of the minimal representation:
+begin
+  4    4
+ 1 3 : 2 3 4 
+ 2 3 : 1 3 4 
+ 3 3 : 1 2 4 
+ 4 3 : 1 2 3 
+end

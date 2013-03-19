@@ -1,0 +1,50 @@
+input file pset3.ext is open
+redundant rows:
+
+* Computation started at Tue Dec 22 12:44:20 2009
+*             ended   at Tue Dec 22 12:44:20 2009
+* Total processor time = 0 seconds
+*                      = 0 h 0 m 0 s
+Implicit linearity (after removal of redundant rows):  0  
+
+Nonredundant representation (except possibly for the linearity part):
+V-representation
+begin
+ 8 7 rational
+ 1 1 0 0 0 0 0
+ 1 0 0 0 0 0 0
+ 1 1/2 1/2 1/2 0 0 0
+ 1 0 1 0 0 0 0
+ 1 0 0 1 0 0 0
+ 1 0 1 1 1 0 0
+ 1 1 0 1 0 1 0
+ 1 1 1 0 0 0 1
+end
+
+The linearity rows are independent and thus minimal
+Nonredundant representation (= minimal representation):
+V-representation
+begin
+ 8 7 rational
+ 1 1 0 0 0 0 0
+ 1 0 0 0 0 0 0
+ 1 1/2 1/2 1/2 0 0 0
+ 1 0 1 0 0 0 0
+ 1 0 0 1 0 0 0
+ 1 0 1 1 1 0 0
+ 1 1 0 1 0 1 0
+ 1 1 1 0 0 0 1
+end
+
+Adjacency of the minimal representation:
+begin
+  8    8
+ 1 7 : 2 3 4 5 6 7 8 
+ 2 6 : 1 4 5 6 7 8 
+ 3 6 : 1 4 5 6 7 8 
+ 4 7 : 1 2 3 5 6 7 8 
+ 5 7 : 1 2 3 4 6 7 8 
+ 6 7 : 1 2 3 4 5 7 8 
+ 7 7 : 1 2 3 4 5 6 8 
+ 8 7 : 1 2 3 4 5 6 7 
+end

@@ -1,0 +1,53 @@
+input file 3on4-nosing.ext is open
+redundant rows:
+
+* Computation started at Mon Dec 21 16:26:54 2009
+*             ended   at Mon Dec 21 16:26:54 2009
+* Total processor time = 0 seconds
+*                      = 0 h 0 m 0 s
+Implicit linearity (after removal of redundant rows):  0  
+
+Nonredundant representation (except possibly for the linearity part):
+V-representation
+begin
+ 9 4 rational
+ 1 1 1/4 0
+ 1 0 1/2 1/6
+ 1 0 1/4 0
+ 1 0 0 0
+ 1 1/2 0 0
+ 1 0 0 1/4
+ 1 0 1/2 1/4
+ 1 1/4 1 1/2
+ 1 1/2 0 1
+end
+
+The linearity rows are independent and thus minimal
+Nonredundant representation (= minimal representation):
+V-representation
+begin
+ 9 4 rational
+ 1 1 1/4 0
+ 1 0 1/2 1/6
+ 1 0 1/4 0
+ 1 0 0 0
+ 1 1/2 0 0
+ 1 0 0 1/4
+ 1 0 1/2 1/4
+ 1 1/4 1 1/2
+ 1 1/2 0 1
+end
+
+Adjacency of the minimal representation:
+begin
+  9    9
+ 1 4 : 3 5 8 9 
+ 2 3 : 3 7 8 
+ 3 3 : 1 2 4 
+ 4 3 : 3 5 6 
+ 5 3 : 1 4 9 
+ 6 3 : 4 7 9 
+ 7 4 : 2 6 8 9 
+ 8 4 : 1 2 7 9 
+ 9 5 : 1 5 6 7 8 
+end

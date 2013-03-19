@@ -1,0 +1,53 @@
+input file l8.ext is open
+redundant rows:
+
+* Computation started at Mon Dec 21 17:04:41 2009
+*             ended   at Mon Dec 21 17:04:41 2009
+* Total processor time = 0 seconds
+*                      = 0 h 0 m 0 s
+Implicit linearity (after removal of redundant rows):  0  
+
+Nonredundant representation (except possibly for the linearity part):
+V-representation
+begin
+ 9 9 rational
+ 1 0 0 0 0 0 0 0 1
+ 1 0 0 0 0 0 0 1 0
+ 1 0 0 0 0 0 1 0 0
+ 1 0 0 0 0 1 0 0 0
+ 1 0 0 0 1 0 0 0 0
+ 1 0 0 1 0 0 0 0 0
+ 1 0 1 0 0 0 0 0 0
+ 1 1 0 0 0 0 0 0 0
+ 1 0 0 0 0 0 0 0 0
+end
+
+The linearity rows are independent and thus minimal
+Nonredundant representation (= minimal representation):
+V-representation
+begin
+ 9 9 rational
+ 1 0 0 0 0 0 0 0 1
+ 1 0 0 0 0 0 0 1 0
+ 1 0 0 0 0 0 1 0 0
+ 1 0 0 0 0 1 0 0 0
+ 1 0 0 0 1 0 0 0 0
+ 1 0 0 1 0 0 0 0 0
+ 1 0 1 0 0 0 0 0 0
+ 1 1 0 0 0 0 0 0 0
+ 1 0 0 0 0 0 0 0 0
+end
+
+Adjacency of the minimal representation:
+begin
+  9    9
+ 1 8 : 2 3 4 5 6 7 8 9 
+ 2 8 : 1 3 4 5 6 7 8 9 
+ 3 8 : 1 2 4 5 6 7 8 9 
+ 4 8 : 1 2 3 5 6 7 8 9 
+ 5 8 : 1 2 3 4 6 7 8 9 
+ 6 8 : 1 2 3 4 5 7 8 9 
+ 7 8 : 1 2 3 4 5 6 8 9 
+ 8 8 : 1 2 3 4 5 6 7 9 
+ 9 8 : 1 2 3 4 5 6 7 8 
+end

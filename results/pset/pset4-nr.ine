@@ -1,0 +1,192 @@
+
+*redund:lrslib v.4.2b, 2009.2.5(32bit,lrsgmp.h gmp v.4.2)
+*Copyright (C) 1995,2009, David Avis   avis@cs.mcgill.ca 
+*Input taken from file pset4.ine
+*row 1 was redundant and removed
+*row 3 was redundant and removed
+*row 6 was redundant and removed
+*row 7 was redundant and removed
+*row 8 was redundant and removed
+*row 9 was redundant and removed
+*row 10 was redundant and removed
+*row 11 was redundant and removed
+*row 12 was redundant and removed
+*row 15 was redundant and removed
+*row 20 was redundant and removed
+*row 25 was redundant and removed
+*row 28 was redundant and removed
+*row 32 was redundant and removed
+*row 35 was redundant and removed
+*row 36 was redundant and removed
+*row 41 was redundant and removed
+*row 44 was redundant and removed
+*row 45 was redundant and removed
+*row 49 was redundant and removed
+*row 50 was redundant and removed
+*row 51 was redundant and removed
+*row 52 was redundant and removed
+*row 53 was redundant and removed
+*row 56 was redundant and removed
+*row 57 was redundant and removed
+*row 62 was redundant and removed
+*row 64 was redundant and removed
+*row 68 was redundant and removed
+*row 74 was redundant and removed
+*row 75 was redundant and removed
+*row 76 was redundant and removed
+*row 78 was redundant and removed
+*row 79 was redundant and removed
+*row 80 was redundant and removed
+*row 81 was redundant and removed
+*row 82 was redundant and removed
+*row 83 was redundant and removed
+*row 84 was redundant and removed
+*row 85 was redundant and removed
+*row 86 was redundant and removed
+*row 87 was redundant and removed
+*row 88 was redundant and removed
+*row 89 was redundant and removed
+*row 90 was redundant and removed
+*row 91 was redundant and removed
+*row 92 was redundant and removed
+*row 93 was redundant and removed
+*row 94 was redundant and removed
+*row 95 was redundant and removed
+*row 96 was redundant and removed
+*row 97 was redundant and removed
+*row 98 was redundant and removed
+*row 99 was redundant and removed
+*row 101 was redundant and removed
+*row 102 was redundant and removed
+*row 103 was redundant and removed
+*row 104 was redundant and removed
+*row 105 was redundant and removed
+*row 107 was redundant and removed
+*row 108 was redundant and removed
+*row 109 was redundant and removed
+*row 110 was redundant and removed
+*row 111 was redundant and removed
+*row 112 was redundant and removed
+*row 113 was redundant and removed
+*row 114 was redundant and removed
+*row 115 was redundant and removed
+*row 116 was redundant and removed
+*row 117 was redundant and removed
+*row 119 was redundant and removed
+*row 120 was redundant and removed
+*row 121 was redundant and removed
+*row 122 was redundant and removed
+*row 123 was redundant and removed
+*row 124 was redundant and removed
+*row 125 was redundant and removed
+*row 126 was redundant and removed
+*row 127 was redundant and removed
+*row 128 was redundant and removed
+*row 129 was redundant and removed
+*row 130 was redundant and removed
+*row 132 was redundant and removed
+*row 133 was redundant and removed
+*row 134 was redundant and removed
+*row 135 was redundant and removed
+*row 136 was redundant and removed
+*row 137 was redundant and removed
+*row 138 was redundant and removed
+*row 139 was redundant and removed
+*row 140 was redundant and removed
+*row 142 was redundant and removed
+*row 143 was redundant and removed
+*row 144 was redundant and removed
+*row 145 was redundant and removed
+*row 146 was redundant and removed
+*row 148 was redundant and removed
+*row 149 was redundant and removed
+*row 151 was redundant and removed
+*row 153 was redundant and removed
+*row 154 was redundant and removed
+*row 155 was redundant and removed
+*row 156 was redundant and removed
+*row 158 was redundant and removed
+*row 159 was redundant and removed
+*row 160 was redundant and removed
+*row 161 was redundant and removed
+*row 162 was redundant and removed
+*row 163 was redundant and removed
+*row 164 was redundant and removed
+*row 166 was redundant and removed
+*row 167 was redundant and removed
+*row 168 was redundant and removed
+*row 169 was redundant and removed
+*row 170 was redundant and removed
+*row 172 was redundant and removed
+*row 173 was redundant and removed
+*row 175 was redundant and removed
+*row 177 was redundant and removed
+*row 157 was redundant and removed
+*row 150 was redundant and removed
+*row 118 was redundant and removed
+*row 14 was redundant and removed
+*row 171 was redundant and removed
+*row 141 was redundant and removed
+*row 100 was redundant and removed
+*row 174 was redundant and removed
+*row 176 was redundant and removed
+*row 165 was redundant and removed
+*row 178 was redundant and removed
+*row 179 was redundant and removed
+H-representation
+begin
+48 15 rational
+ 0  0  0  0  0  0  0  0  0  0  0  1  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  1  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  1  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  1 
+ 0  0  0  0  0  0  0  0  0  1  0 -1 -1  0  0 
+ 0  0  0  0  0  0  0  0  1  0  0 -1  0 -1  0 
+ 0  0  0  1  0  0 -1  0  0  0  0 -1  0  0  0 
+ 0  0  1  0  0  0  0 -1  0  0  0 -1  0  0  0 
+ 0  0  0  0  0  1  0  0  0  0  0 -1  0  0 -1 
+ 0  1  0  0  0  0  0  0  0  0 -1 -1  0  0  0 
+ 0  0  1  0  0 -1  0  0  0  0  0  0 -1  0  0 
+ 0  0  0  1  0 -1  0  0  0  0  0  0  0 -1  0 
+ 0  0  0  0  0  0  0  0  0  0  1  0 -1 -1  0 
+ 0  0  0  0  1  0 -1  0  0  0  0  0 -1  0  0 
+ 0  1  0  0  0  0  0  0 -1  0  0  0 -1  0  0 
+ 0  0  0  0  0  0  0  1  0  0  0  0 -1  0 -1 
+ 0  0  0  0  1  0  0 -1  0  0  0  0  0 -1  0 
+ 0  1  0  0  0  0  0  0  0 -1  0  0  0 -1  0 
+ 0  0  0  0  0  0  1  0  0  0  0  0  0 -1 -1 
+ 0  0  0  1  0  0  0  0 -1  0  0  0  0  0 -1 
+ 0  0  1  0  0  0  0  0  0 -1  0  0  0  0 -1 
+ 0  0  0  0  1  0  0  0  0  0 -1  0  0  0 -1 
+ 1 -1  0  0  0 -1  0  0  0  0  0  1  0  0  0 
+ 1 -1  0  0  0  0  0 -1  0  0  0  0  1  0  0 
+ 1 -1  0  0  0  0 -1  0  0  0  0  0  0  1  0 
+ 1 -1 -1  0  0  0  0  0  0  1  0  0  0  0  0 
+ 1 -1  0 -1  0  0  0  0  1  0  0  0  0  0  0 
+ 1 -1  0  0 -1  0  0  0  0  0  1  0  0  0  0 
+ 1  0 -1  0  0  0  0  0 -1  0  0  1  0  0  0 
+ 1  0  0 -1  0  0  0  0  0 -1  0  1  0  0  0 
+ 0  0  0  2  0 -1 -1  0 -1  0  0  0  0  0  0 
+ 0  0  2  0  0 -1  0 -1  0 -1  0  0  0  0  0 
+ 1  0 -1 -1  0  1  0  0  0  0  0  0  0  0  0 
+ 1  0  0  0 -1 -1  0  0  0  0  0  0  0  0  1 
+ 1  0 -1  0  0  0  0  0  0  0 -1  0  1  0  0 
+ 1  0  0  0 -1  0  0  0  0 -1  0  0  1  0  0 
+ 1  0  0 -1  0  0  0  0  0  0 -1  0  0  1  0 
+ 1  0  0  0 -1  0  0  0 -1  0  0  0  0  1  0 
+ 0  0  0  0  2  0 -1 -1  0  0 -1  0  0  0  0 
+ 1  0 -1  0  0  0 -1  0  0  0  0  0  0  0  1 
+ 1  0  0 -1 -1  0  1  0  0  0  0  0  0  0  0 
+ 1  0 -1  0 -1  0  0  1  0  0  0  0  0  0  0 
+ 1  0  0 -1  0  0  0 -1  0  0  0  0  0  0  1 
+ 0  2  0  0  0  0  0  0 -1 -1 -1  0  0  0  0 
+ 1  0  0  0  0 -1  0  0 -1 -1  0  2  0  0  0 
+ 1  0  0  0  0 -1 -1 -1  0  0  0  0  0  0  2 
+ 1  0  0  0  0  0  0 -1  0 -1 -1  0  2  0  0 
+ 1  0  0  0  0  0 -1  0 -1  0 -1  0  0  2  0 
+end
+*Input had 179 rows and 15 columns: 131 row(s) redundant
+*redund:lrslib v.4.2b, 2009.2.5(32bit,lrsgmp.h)
+*0.600u 0.000s 0Kb 0 flts 0 swaps 0 blks-in 16 blks-out 
+
+

@@ -1,0 +1,47 @@
+input file 2on3.ext is open
+redundant rows:
+
+* Computation started at Mon Dec 21 13:49:12 2009
+*             ended   at Mon Dec 21 13:49:12 2009
+* Total processor time = 0 seconds
+*                      = 0 h 0 m 0 s
+Implicit linearity (after removal of redundant rows):  0  
+
+Nonredundant representation (except possibly for the linearity part):
+V-representation
+begin
+ 7 6 rational
+ 1 0 0 0 0 0
+ 1 1/2 0 0 0 0
+ 1 0 1/2 0 0 0
+ 1 1/2 1/4 0 0 0
+ 1 0 1/2 0 0 1
+ 1 1/2 1 0 1 0
+ 1 1 0 1 0 0
+end
+
+The linearity rows are independent and thus minimal
+Nonredundant representation (= minimal representation):
+V-representation
+begin
+ 7 6 rational
+ 1 0 0 0 0 0
+ 1 1/2 0 0 0 0
+ 1 0 1/2 0 0 0
+ 1 1/2 1/4 0 0 0
+ 1 0 1/2 0 0 1
+ 1 1/2 1 0 1 0
+ 1 1 0 1 0 0
+end
+
+Adjacency of the minimal representation:
+begin
+  7    7
+ 1 5 : 2 3 5 6 7 
+ 2 5 : 1 4 5 6 7 
+ 3 5 : 1 4 5 6 7 
+ 4 5 : 2 3 5 6 7 
+ 5 6 : 1 2 3 4 6 7 
+ 6 6 : 1 2 3 4 5 7 
+ 7 6 : 1 2 3 4 5 6 
+end

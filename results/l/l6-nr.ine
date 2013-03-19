@@ -1,0 +1,20 @@
+
+*redund:lrslib v.4.2b, 2009.2.5(32bit,lrsgmp.h gmp v.4.2)
+*Copyright (C) 1995,2009, David Avis   avis@cs.mcgill.ca 
+*Input taken from file l6.ine
+H-representation
+begin
+7 7 rational
+ 0  1  0  0  0  0  0 
+ 0  0  1  0  0  0  0 
+ 0  0  0  1  0  0  0 
+ 0  0  0  0  1  0  0 
+ 0  0  0  0  0  1  0 
+ 0  0  0  0  0  0  1 
+ 1 -1 -1 -1 -1 -1 -1 
+end
+*Input had 7 rows and 7 columns: 0 row(s) redundant
+*redund:lrslib v.4.2b, 2009.2.5(32bit,lrsgmp.h)
+*0.000u 0.000s 0Kb 0 flts 0 swaps 0 blks-in 0 blks-out 
+
+

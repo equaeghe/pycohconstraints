@@ -1,0 +1,23 @@
+input file eentje_o+b-nr.ine is open
+How many variables to elminate? (max 5): 
+1 th deletion variable): 
+2 th deletion variable): 
+3 th deletion variable): H-representation
+begin
+ 5 3 rational
+ 2 0 -2
+ 0 2 0
+ 2 -2 0
+ 0 0 2
+ 2 -2 -2
+end
+
+Redundant rows: 1 3 
+
+H-representation
+begin
+ 3 3 rational
+ 0 2 0
+ 0 0 2
+ 2 -2 -2
+end

@@ -1,0 +1,25 @@
+input file tweetje-nr.ine is open
+How many variables to elminate? (max 5): 
+1 th deletion variable): 
+2 th deletion variable): 
+3 th deletion variable): H-representation
+begin
+ 6 3 rational
+ 2 4 -4
+ 0 2 0
+ 2 -2 0
+ 8 -8 -4
+ 0 0 2
+ 2 -2 -1
+end
+
+Redundant rows: 3 6 
+
+H-representation
+begin
+ 4 3 rational
+ 2 4 -4
+ 0 2 0
+ 8 -8 -4
+ 0 0 2
+end
