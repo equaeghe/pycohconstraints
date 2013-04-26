@@ -1,9 +1,9 @@
-pycohconstraints
-================
+2010 pycohconstraints
+=====================
 
 python code for generating coherence constraints for lower previsions
 
-This repository contains three directories, one with the python code to generate constraints sets, a second with bash scripts that can be used to process the generated constraints sets files, and a third with files resulting from using the code with many different parameters, and further files derived from these.
+This directory contains three subdirectories, one with the python code to generate constraints sets, a second with bash scripts that can be used to process the generated constraints sets files, and a third with files resulting from using the code with many different parameters, and further files derived from these.
 
 The code and scripts have only been used and therefore tested on Linux; without too much modification they should also work on other OSs.
 
