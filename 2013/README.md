@@ -18,10 +18,11 @@ Code
 References & citing
 -------------------
 This code has been used for my research.
-This research has been presented at a conference:
+This research has been presented at ISIPTA ’13 and published in IJAR:
 
-> Quaeghebeur, Erik. 2010.
-> “Characterizing coherence, correcting incoherence”
-> Accepted for ISIPTA '13.
+> Erik Quaeghebeur. “Characterizing coherence, correcting incoherence.”
+> _Int. J. Approx. Reason_. Volume 56, Part B, January 2015, Pages 208–223.
+> http://dx.doi.org/10.1016/j.ijar.2014.03.005
+> http://hdl.handle.net/1854/LU-5814579
 
 Please cite this paper if you use any material in this repository.
