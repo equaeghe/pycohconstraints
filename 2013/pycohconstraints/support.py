@@ -2,8 +2,8 @@ from random import Random
 from cdd import RepType, Matrix
 from itertools import product
 
-zeroslists = lambda listnum, listlen: [[0 for _ in xrange(listlen)]
-                                       for _ in xrange(listnum)]
+zeroslists = lambda listnum, listlen: [[0 for _ in range(listlen)]
+                                       for _ in range(listnum)]
 
 def indicatorslist(statenum):
     """Generate a list of all {0,1}-valued lists of length `statenum`"""
@@ -13,7 +13,7 @@ def indicatorslist(statenum):
 def transpose(listoflists):
     """Transpose a list of lists, where each list is seen as a row"""
     listlen = len(listoflists[0])
-    return [[l[k] for l in listoflists] for k in xrange(listlen)]
+    return [[l[k] for l in listoflists] for k in range(listlen)]
 
 def diagonallists(diagonallist):
     """Create a list of lists with zeros expect on the diagonal
@@ -24,7 +24,7 @@ def diagonallists(diagonallist):
     """
     n = len(diagonallist)
     outputlist = zeroslists(n, n)
-    for k in xrange(n):
+    for k in range(n):
         outputlist[k][k] = diagonallist[k]
     return outputlist
 
@@ -40,7 +40,7 @@ def randintlist(rngen, cutoff, listlen):
     """
     listmax = 0
     while listmax == 0:
-      random_list = [randint(rngen, cutoff) for _ in xrange(listlen)]
+      random_list = [randint(rngen, cutoff) for _ in range(listlen)]
       listmin = min(random_list)
       NNZM_list = [val - listmin for val in random_list]
       listmax = max(NNZM_list)
@@ -58,7 +58,7 @@ def randintlists(listnum, listlen):
     """
     rngen = Random()
     cutoff = rngen.random() * .15 + .85
-    output = [randintlist(rngen, cutoff, listlen) for _ in xrange(listnum)]
+    output = [randintlist(rngen, cutoff, listlen) for _ in range(listnum)]
     sparsity = float(sum(l.count(0) for l in output)) / (listnum * listlen)
     return output, sparsity
 
@@ -87,7 +87,7 @@ def lhs_rhs2constraints(lhs, rhs):
 
     """
     constraints = []
-    for k in xrange(len(rhs)):
+    for k in range(len(rhs)):
         constraints.append([rhs[k]] + [-coeff for coeff in lhs[k]])
     return constraints
 

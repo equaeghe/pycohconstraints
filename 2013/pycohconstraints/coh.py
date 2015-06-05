@@ -36,7 +36,7 @@ def get_coh_hrep_via_vreps(K, num_type='fraction'):
     """
     vrep = generate_asl_vrep(K, num_type)
     hreplist = [Polyhedron(vrep).get_inequalities()]
-    for i in xrange(len(K)):
+    for i in range(len(K)):
         vrep = generate_Sasl_vrep(K, i, num_type)
         hreplist.append(Polyhedron(vrep).get_inequalities())
     constraints = ([list(t) for t in hrep[:]] for hrep in hreplist)
@@ -55,7 +55,7 @@ def get_coh_hrep_as_coeff_vrep(K, num_type='fraction'):
     """
     k = len(K)
     lhs, rhs = get_asl_lhs_rhs_as_coeff_vrep(K)
-    for i in xrange(k):
+    for i in range(k):
         S = generate_Sasl_pos_dirs(k, i)
         minusS = generate_Sasl_neg_dirs(k, i)
         coeff_one_lhs = transpose(K) + minusS
